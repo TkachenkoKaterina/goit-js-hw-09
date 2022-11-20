@@ -53,7 +53,7 @@ const options = {
     }
 };
 
-const flatpickr = flatpickr(inputRef, options);
+flatpickr(inputRef, options);
 
 const inputField = inputRef.addEventListener('input', onClose);
 const clickBtnStart = btnStart.addEventListener('click', onStart);
